@@ -4,11 +4,9 @@ import Homepage from '../homepage/Homepage';
 
 const HomepageRoutes = () => {
     return (
-        <section className="section">
-            <Switch>
-                <Route path="/" component={Homepage} />
-            </Switch>
-        </section>
+        <Switch>
+            <Route path="/" component={Homepage} />
+        </Switch>
     );
 };
 
